@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>
+            Guestbook
+    </title>
+</head>
+<body>
+    <h1>Guest Book</h1>
+    
+    <p>Please enter your name and message:</p>
+    
+    <form action="guestbook.php" method="post">
+<table>
+<tr>
+    
+    <td align="right">Name: </td>
+        <td><input type="text" size="20" maxlength="30" name="name"></td>
+</tr>
+<tr>
+    <td align="right" valign="top">Message: </td>
+        <td><textarea rows="6" cols="40" name="message"></textarea></td>
+</tr>
+<tr>
+    <td colspan="2" align="right"><input type="submit" value="Leave message"></td>
+</tr>
+</table>
+</form>
+<p><a href="display_messages.php">Display messages</a>.</p>
+</body>
+</html>
